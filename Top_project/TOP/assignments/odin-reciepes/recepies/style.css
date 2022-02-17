@@ -1,0 +1,27 @@
+/*Type selectors*/
+
+h1{
+    color: red;
+}
+h3{
+    color: blue;
+    background-color: bisque;
+}
+    div{
+        color: black;
+        background-color: antiquewhite;
+    }
+    p{
+        color: black;
+        background-color: antiquewhite;
+    }
+    h2 {
+        color: black;
+        background-color: antiquewhite;
+    }
+
+    /* recepie pages  group selectors*/
+    .index,.top{
+        background-color: antiquewhite;
+        color: black;
+    }
