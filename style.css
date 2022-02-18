@@ -141,15 +141,15 @@ h1 {
     border-color: none;
 }
 
-.sign-item {
+.sendmsg {
     flex: 1;
 }
 
-.signs-text {
+.button-text {
     text-align: left;
 }
 
-.signs-text p {
+.button-text p {
     color: #fff;
     opacity: 0.7;
     margin: 5px 30px 30px 50px;
@@ -162,7 +162,7 @@ h3 {
     margin: 30px 0px 0px 50px;
 }
 
-.signs-button button {
+.button-text button {
     color: #fff;
     font-family: 'Roboto', arial;
     border-color: #fff;
