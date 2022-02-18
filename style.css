@@ -11,13 +11,13 @@ body {
     flex-direction: column;
 }
 
-/* Navbar Part  goes here*/
+/* Navbar Part */
 
 .navbar {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 17px 0px 17px 100px;
+    padding: 20px 0px 20px 100px;
     align-items: center;
 }
 
@@ -41,9 +41,9 @@ body {
     font-family: 'Roboto', arial;
 }
 
-/* Hero Part goes here */
+/* Hero Part */
 
-.bghero {
+.hero {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
@@ -52,7 +52,7 @@ body {
     padding: 90px;
 }
 
-.wtext {
+.herotext {
     flex-basis: 400px;
     display: flex;
     flex-direction: column;
@@ -60,9 +60,9 @@ body {
     margin-right: 50px;
 }
 
-.wtext p {
+.herotext p {
     font-family: 'Roboto', arial;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 h1 {
@@ -92,19 +92,20 @@ h1 {
     height: 350px;
 }
 
-/* Content Part goes here*/
+/* Content Part */
 
 .content {
     align-items: center;
 }
 
-.content-i {
+.content-info {
     display: flex;
+    /* border: 1px solid gold; */
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.contents-i img {
+.content-info img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -113,16 +114,16 @@ h1 {
     margin: 5px 20px 0px 20px;
 }
 
-/* Quot Part */
+/* Quotation Part */
 
-.quote {
+.portfolioquote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 0 200px;
 }
 
-.quote p {
+.portfolioquote p {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -130,8 +131,15 @@ h1 {
     font-family: 'Roboto', arial;
 }
 
-/* msg oart goes here */
-.sendmsg {
+.portfolioquote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* Sign Up Part */
+.lastbtn {
     background-color: #3882F6 ;
     margin: 50px 200px;
     padding: 10px 80px;
@@ -141,15 +149,15 @@ h1 {
     border-color: none;
 }
 
-.sendmsg {
+.sign-item {
     flex: 1;
 }
 
-.button-text {
+.signs-text {
     text-align: left;
 }
 
-.button-text p {
+.signs-text p {
     color: #fff;
     opacity: 0.7;
     margin: 5px 30px 30px 50px;
@@ -162,7 +170,7 @@ h3 {
     margin: 30px 0px 0px 50px;
 }
 
-.button-text button {
+.signs-button button {
     color: #fff;
     font-family: 'Roboto', arial;
     border-color: #fff;
