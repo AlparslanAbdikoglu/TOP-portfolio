@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 
-/* Navbar Part */
+/* Navbar Part goes here */
 
 .navbar {
     display: flex;
@@ -92,7 +92,7 @@ h1 {
     height: 350px;
 }
 
-/* Content Part */
+/* Content Part  goes here*/
 
 .content {
     align-items: center;
@@ -100,7 +100,6 @@ h1 {
 
 .content-info {
     display: flex;
-    /* border: 1px solid gold; */
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -114,7 +113,6 @@ h1 {
     margin: 5px 20px 0px 20px;
 }
 
-/* Quotation Part */
 
 .portfolioquote {
     display: flex;
@@ -138,7 +136,7 @@ h1 {
     text-align: right;
 }
 
-/* Sign Up Part */
+
 .lastbtn {
     background-color: #3882F6 ;
     margin: 50px 200px;
