@@ -1,0 +1,55 @@
+body{
+    background-color: #2c4ba0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* Navbar goes here*/
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #152336;
+    padding: 15px 0px 15px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+.header-link a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/*hero part goes here */
+.hero{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.wtext{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
