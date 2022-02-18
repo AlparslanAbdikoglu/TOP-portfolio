@@ -25,6 +25,7 @@ body {
     width: 84px;
     height: 84px;
     margin-right: auto;
+    border-radius: 50%;
 }
 
 .header-link {
@@ -90,6 +91,7 @@ h1 {
 .hero-image img {
     width: 500px;
     height: 350px;
+    border-radius: 50%;
 }
 
 /* Content Part  goes here*/
