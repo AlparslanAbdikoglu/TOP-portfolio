@@ -1,9 +1,8 @@
-import imp
+
 from os import scandir, rename
 from os.path import splitext, exists, join
 from shutil import move
 from time import sleep
-from tkinter import Button
 from win11toast import toast
 
 
