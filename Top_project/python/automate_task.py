@@ -1,12 +1,23 @@
+import imp
 from os import scandir, rename
 from os.path import splitext, exists, join
 from shutil import move
 from time import sleep
+from tkinter import Button
+from win11toast import toast
+
+
 
 import logging
+import os
+print("PID of manager file is:")
+print(os.getpid())
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+
+#POP up when code runs 25 sec
+toast("File manager started!","this pop up is live for 25 seconds", duration="long", button='Dismiss')
 
 # ! FILL IN BELOW
 # ? folder to track e.g. Windows: "C:\\Users\\UserName\\Downloads"
@@ -25,6 +36,7 @@ video_extensions = [".webm",  ".mpeg", ".mpv",
 # ? supported Document types
 document_extensions = [".doc", ".docx", ".odt",
                        ".pdf", ".xls", ".xlsx", ".ppt", ".pptx"]
+
 
 
 def make_unique(dest, name):
