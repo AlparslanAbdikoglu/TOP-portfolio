@@ -1,4 +1,3 @@
-import imp
 from os import scandir, rename
 from os.path import splitext, exists, join
 from shutil import move
